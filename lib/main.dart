@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ramirezcurso/mi_widgets/mi_tarjeta.dart';
+import 'package:ramirezcurso/mi_widgets/dialogo_acerca_de.dart';
+//import 'package:ramirezcurso/mi_widgets/mi_tarjeta.dart';
 
 const Color darkBlue = Color(0xFF12202F);
 
@@ -19,7 +20,8 @@ class MiTarjeta extends StatelessWidget {
           title: const Text("Flutter Ramirez"),
           centerTitle: true,
         ),
-        body: const LaTarjeta(),
+        //body: const LaTarjeta(),
+        body: const DialogoAcerca(),
       ),
     );
   }
